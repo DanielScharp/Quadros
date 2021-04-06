@@ -1,0 +1,17 @@
+.img-capa{
+    width: 200px;
+    margin-top: 50px;
+}
+
+.hr-1 {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.capa {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

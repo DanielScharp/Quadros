@@ -1,0 +1,15 @@
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #4aa6f665;
+    clip-path: circle(20% at left 90%);
+}
+
+.circulo2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffbd59ad;
+    clip-path: circle(30% at right 0%);
+}
