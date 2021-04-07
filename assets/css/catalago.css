@@ -1,0 +1,70 @@
+.caixa-catalago {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.texto-catalago {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.item-catalago {
+    width: 200px;
+}
+
+/* --------- */
+
+.atacadista {
+    position: relative;
+    background: #4aa6f665;
+}
+
+.atacadista::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 35px;
+    background-size: 35px 100%;
+    background-image: linear-gradient(135deg, #4aa6f665 25%, transparent 25%), linear-gradient(225deg, #4aa6f665 25%, transparent 25%);
+    background-position: 0 0;
+}
+
+@media (min-width: 615px) {
+    .catalago {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .texto-catalago {
+        font-size: 2em;
+    }
+
+
+}
+
+@media (min-width: 800px) {
+    .item-catalago {
+        width: 250px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .item-catalago {
+        width: 330px;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .item-catalago {
+        width: 390px;
+    }
+}

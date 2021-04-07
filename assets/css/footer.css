@@ -1,0 +1,26 @@
+footer {
+    background: #4aa6f665;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contato-desenvolvedor {
+    display: flex;
+    align-items: flex-start;
+}
+
+.dev-conts {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: bold;
+
+}
