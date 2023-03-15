@@ -11,7 +11,7 @@
     <a href="#licença">Licença</a>
 </p>
 
-<p align="center"><img src="https://i.imgur.com/ztzLbG4.png" width="500"></p>
+<p align="center"><img src="https://danielscharp.github.io/Quadros/layout-pagina.jpeg" width="500"></p>
 
 ## 📖 Descrição
 
